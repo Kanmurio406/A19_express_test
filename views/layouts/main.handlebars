@@ -1,0 +1,29 @@
+<!-- ./views/layouts/main.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+        <input type="button" value="回到首頁" onclick="location.href='http://localhost:3000'">
+      <div class="right-side-buttons">
+        <input type="button" value="about" onclick="location.href='http://localhost:3000/about'">
+        <input type="button" value="portfolio" onclick="location.href='http://localhost:3000/portfolio'">
+        <input type="button" value="contact" onclick="location.href='http://localhost:3000/contact'">
+      </div>
+    </div>
+  </nav>
+  
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
+</body>
+
+</html>
