@@ -6,6 +6,7 @@ By clicking "回到首頁", you can go back to the index.
 ## 環境建置與需求
 * 以下項目需事先安裝至電腦：
   * Node.js
+  * nodemon
 * 以下項目下載專案後會自動安裝：
   * express-handlebars: 6.0.1
 * 以下項目可跟隨步驟說明安裝：
@@ -27,7 +28,7 @@ npm i express
 ```
 5. 執行專案（需確認終端機路徑已在專案資料夾內），輸入：
 ```
-node app.js
+npm run dev
 ```
 6. 打開瀏覽器，貼上網址：
 ```
